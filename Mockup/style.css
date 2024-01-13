@@ -1,0 +1,235 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    border-radius: 1rem;
+}
+.main-content{
+    display: flex;
+    flex: 1;
+    overflow: auto;
+}
+.sidebar{
+    background-color: white;
+    width: 40px;
+    border-radius: 1rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.content1{
+    background-color: white;
+    width: 300px;
+    padding: 1rem 0 0 3rem;
+    margin-bottom: 3rem;
+}
+.content2{
+    background-color: white;
+    flex: 1;
+    padding: 2rem 1rem 1rem 1rem;
+}
+.content3{
+    background-color: white;
+    width: 250px;
+    border-radius: 0 1rem 1rem 0 ;
+    display: flex;
+    padding: 2rem 1rem 1rem 1rem;
+    flex-direction: column;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+}
+.nav2{
+    display: flexbox;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 2rem;
+}
+.nav3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+}
+.sidebar img,i{
+    padding: 0.75rem 0.75rem;
+    font-size: 1rem;
+    margin-left: 0.11rem;
+    color: grey;
+    
+}
+.sidebar i:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 0.5rem;
+}
+.nav2 i{
+    margin-top: 1rem;
+}
+.name{
+    display: flex;
+    
+}
+.mike{
+    display: flexbox;
+    flex-direction: column;
+}
+.name img{
+    display: flexbox;
+    flex-direction: column;
+    align-self: center;
+}
+.mike h1{
+    margin: 1rem 0 0.1rem 0.5rem;
+}
+.mike p{
+    margin: 0 0 0 0.5rem;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.today{
+    margin-bottom: 0;
+}
+.t-1{
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}
+.acc{
+    margin: 0;
+    font-size: small;
+}
+.t-2{
+    margin-bottom: 0.2rem;
+}
+.badge{
+    background-color: blue;
+    border-radius: 0.35rem;
+    width: 7rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    border: 0 solid ;
+}
+.date{
+    opacity: 0.5;
+}
+.line{
+    border: 0.001rem solid lightgrey;
+    opacity: 0.5;
+    display: flex;
+    width: 85%;
+    justify-content: center;
+}
+.R-I{
+    color: blue;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 0rem;
+}
+.retirement-h2{
+    margin-top: 0;
+}
+.retirement-mge{
+    display: flex;
+    justify-content: space-between;
+}
+.mge{
+    width: 30%;
+}
+.mge-h2{
+    font-weight: 900;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+
+}
+.mge-p{
+    margin: 0.5rem 0.5rem 0 0;
+    font-size: 0.8rem;
+    color: grey;
+}
+.ri-line{
+    border: 1px solid blue;
+    width: 100%;
+    margin-top: 0.8rem;
+}
+.contribution{
+    margin-top: 3rem;
+}
+.co-d{
+    display: flex;
+    align-items: center;
+}
+.co-dd{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem 0.5rem 0rem;
+}
+.co-dd img{
+    position: relative;
+    top: 0.45rem;
+}
+.bargraph{
+    width: 80%;
+    height: 25%;
+}
+.peer-d{
+    display: flex;
+}
+.peer-dd1{
+    display: flex;
+    flex-direction: column;
+}
+.peer-ddd{
+    display: flex;
+    align-items: center;
+}
+.form-select{
+    border-color: white;
+    font-weight: 400;
+}
+.peer-dd2{
+    width: auto;
+    height: auto;
+}
+.range{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card-d{
+    display: flex;
+    justify-content: space-between;
+}
+.badge2{
+    background-color: blue;
+    border-radius: 0.35rem;
+    width: 90%;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    border: 0 solid ;
+}
+.lernmore{
+    border-left: 2px solid blue;
+}
+.l-m{
+    margin-left: 1rem;
+}
